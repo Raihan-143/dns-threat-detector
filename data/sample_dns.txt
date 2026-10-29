@@ -1,0 +1,19 @@
+# Legitimate Baseline Domains
+google.com
+www.github.com
+one.one.one.one
+api.cloudflare.com
+mail.google.com
+
+# DNS Tunneling & Exfiltration Payloads (Long, high-entropy subdomains)
+a8f93bc01d9e4a8b8c2d1e0f.exfil.threat-actor.org
+9c2b4a1f8e7d6c5b4a3f2e1d0c9b8a7f.storage.attacker-c2.net
+dGhpcyBpcyBhIHNhbXBsZSBleGZpbHRyYXRpb24gcGF5bG9hZAo.tunnel.internal-hack.com
+
+# Domain Generation Algorithm (DGA) Domains (High entropy SLD)
+xkqpz921mnhb.ru
+vbnzqwer8912lkjh.biz
+asdfghjkla123456.top
+
+# Legitimate Long Subdomain (Lower entropy / English words)
+production-internal-auth-gateway-service.enterprise-cloud.net
